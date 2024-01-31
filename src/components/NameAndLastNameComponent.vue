@@ -29,10 +29,9 @@ const validateForm = () => {
     <label>Apellido:</label>
     <input @input="validateForm()" v-model="lastName" type="text" />
   </div>
-  <br />
+
   <span v-for="(err, index) in errors" :key="index" class="error">
     {{ err }}
-    <br />
   </span>
 </template>
 

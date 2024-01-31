@@ -14,4 +14,10 @@ import GenderComponent from '@/components/GenderComponent.vue'
   </main>
 </template>
 
-<style></style>
+<style>
+div .formulario {
+  background: #1b1b32;
+  width: 300px;
+  height: 100px;
+}
+</style>

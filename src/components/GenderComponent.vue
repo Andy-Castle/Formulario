@@ -33,10 +33,8 @@ const validateForm = () => {
       placeholder="Specify custom gender"
     />
   </div>
-  <br />
   <span v-for="(err, index) in errors" :key="index" class="error">
     {{ err }}
-    <br />
   </span>
 </template>
 
