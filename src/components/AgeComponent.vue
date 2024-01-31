@@ -54,9 +54,4 @@ input {
   border: 1px solid white;
   font-style: italic;
 }
-
-.formulario {
-  display: block;
-  margin: 0 auto;
-}
 </style>
