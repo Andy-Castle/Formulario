@@ -59,8 +59,11 @@ input {
 .error {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: red;
-  background-color: yellow;
+  background-color: black;
   border: 1px solid white;
   font-style: italic;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
 }
 </style>
