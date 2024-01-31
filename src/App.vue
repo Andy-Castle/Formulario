@@ -4,8 +4,15 @@ import FormularioComponent from '@/components/FormularioComponent.vue'
 
 <template>
   <main>
-    <FormularioComponent />
+    <div>
+      <FormularioComponent />
+    </div>
   </main>
 </template>
 
-<style></style>
+<style>
+div {
+  display: block;
+  margin: auto auto;
+}
+</style>
